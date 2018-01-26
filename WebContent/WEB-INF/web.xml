@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" version="3.1">
+  <display-name>EPetition</display-name>
+  <welcome-file-list>
+    <welcome-file>login.jsp</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <servlet-name>HelloWorld</servlet-name>
+    <servlet-class>uk.ac.le.cs.CO3098.HelloWorldServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>HelloWorld</servlet-name>
+    <url-pattern>/servlets/HelloWorld</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>StudentInfo</servlet-name>
+    <servlet-class>uk.ac.le.cs.CO3098.GetStudentInfo</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>StudentInfo</servlet-name>
+    <url-pattern>/servlets/StudentInfo</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>Registration</servlet-name>
+    <servlet-class>uk.ac.le.cs.CO3098.Registration</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Registration</servlet-name>
+    <url-pattern>/servlets/Registration</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>Login</servlet-name>
+    <servlet-class>uk.ac.le.cs.CO3098.Login</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Login</servlet-name>
+    <url-pattern>/servlets/Login</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>Logout</servlet-name>
+    <servlet-class>uk.ac.le.cs.CO3098.Logout</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Logout</servlet-name>
+    <url-pattern>/servlets/Logout</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>PetitionServlet</servlet-name>
+    <servlet-class>uk.ac.le.cs.CO3098.PetitionServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>PetitionServlet</servlet-name>
+    <url-pattern>/servlets/PetitionServlet</url-pattern>
+  </servlet-mapping>
+  
+   <servlet>
+    <servlet-name>EditPetitionServlet</servlet-name>
+    <servlet-class>uk.ac.le.cs.CO3098.EditPetitionServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>EditPetitionServlet</servlet-name>
+    <url-pattern>/servlets/EditPetitionServlet</url-pattern>
+  </servlet-mapping>
+  
+     <servlet>
+    <servlet-name>ChangePetitionServlet</servlet-name>
+    <servlet-class>uk.ac.le.cs.CO3098.ChangePetitionServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ChangePetitionServlet</servlet-name>
+    <url-pattern>/servlets/ChangePetitionServlet</url-pattern>
+  </servlet-mapping>
+  
+       <servlet>
+    <servlet-name>CreateCommentServlet</servlet-name>
+    <servlet-class>uk.ac.le.cs.CO3098.CreateCommentServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>CreateCommentServlet</servlet-name>
+    <url-pattern>/servlets/CreateCommentServlet</url-pattern>
+  </servlet-mapping>
+  
+       <servlet>
+    <servlet-name>UploadCommentServlet</servlet-name>
+    <servlet-class>uk.ac.le.cs.CO3098.UploadCommentServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>UploadCommentServlet</servlet-name>
+    <url-pattern>/servlets/UploadCommentServlet</url-pattern>
+  </servlet-mapping>
+  
+         <servlet>
+    <servlet-name>RetrieveCommentsServlet</servlet-name>
+    <servlet-class>uk.ac.le.cs.CO3098.RetrieveCommentsServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>RetrieveCommentsServlet</servlet-name>
+    <url-pattern>/servlets/RetrieveCommentsServlet</url-pattern>
+  </servlet-mapping>
+  
+           <servlet>
+    <servlet-name>BarChartServlet</servlet-name>
+    <servlet-class>uk.ac.le.cs.CO3098.BarChartServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>BarChartServlet</servlet-name>
+    <url-pattern>/servlets/BarChartServlet</url-pattern>
+  </servlet-mapping>
+  
+             <servlet>
+    <servlet-name>NICCheck</servlet-name>
+    <servlet-class>uk.ac.le.cs.CO3098.NICCheck</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>NICCheck</servlet-name>
+    <url-pattern>/servlets/NICCheck</url-pattern>
+  </servlet-mapping>
+  
+</web-app>
